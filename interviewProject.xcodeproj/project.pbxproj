@@ -6,17 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B2DE663C2E04F3C3001FD04D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DE66392E04F3C3001FD04D /* ContentView.swift */; };
+		B2DE663D2E04F3C3001FD04D /* interviewProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DE663A2E04F3C3001FD04D /* interviewProjectApp.swift */; };
+		B2DE663E2E04F3C3001FD04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DE66382E04F3C3001FD04D /* Assets.xcassets */; };
+		B2DE66402E04F3DB001FD04D /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DE663F2E04F3DB001FD04D /* SideMenuView.swift */; };
+		B2DE66422E04F3FD001FD04D /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DE66412E04F3FD001FD04D /* WeatherView.swift */; };
+		B2DE66442E04F4D2001FD04D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DE66432E04F4D2001FD04D /* RootView.swift */; };
+		B2DE66462E04FCF0001FD04D /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DE66452E04FCF0001FD04D /* CustomSegmentedControl.swift */; };
+		B2DE66482E0500CE001FD04D /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DE66472E0500CE001FD04D /* WeatherData.swift */; };
+		B2DE664C2E0501B7001FD04D /* Effra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2DE664A2E0501B7001FD04D /* Effra-Regular.ttf */; };
+		B2DE664D2E0501B7001FD04D /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2DE66492E0501B7001FD04D /* Cairo-Regular.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B2DE662A2E04F2AC001FD04D /* interviewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = interviewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DE66382E04F3C3001FD04D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2DE66392E04F3C3001FD04D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2DE663A2E04F3C3001FD04D /* interviewProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interviewProjectApp.swift; sourceTree = "<group>"; };
+		B2DE663F2E04F3DB001FD04D /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		B2DE66412E04F3FD001FD04D /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		B2DE66432E04F4D2001FD04D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B2DE66452E04FCF0001FD04D /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		B2DE66472E0500CE001FD04D /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		B2DE66492E0501B7001FD04D /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		B2DE664A2E0501B7001FD04D /* Effra-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Effra-Regular.ttf"; sourceTree = "<group>"; };
+		B2DE664E2E050269001FD04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B2DE662C2E04F2AC001FD04D /* interviewProject */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = interviewProject;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B2DE66272E04F2AC001FD04D /* Frameworks */ = {
@@ -32,7 +48,7 @@
 		B2DE66212E04F2AC001FD04D = {
 			isa = PBXGroup;
 			children = (
-				B2DE662C2E04F2AC001FD04D /* interviewProject */,
+				B2DE663B2E04F3C3001FD04D /* interviewProject */,
 				B2DE662B2E04F2AC001FD04D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +59,32 @@
 				B2DE662A2E04F2AC001FD04D /* interviewProject.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B2DE663B2E04F3C3001FD04D /* interviewProject */ = {
+			isa = PBXGroup;
+			children = (
+				B2DE664E2E050269001FD04D /* Info.plist */,
+				B2DE66382E04F3C3001FD04D /* Assets.xcassets */,
+				B2DE66432E04F4D2001FD04D /* RootView.swift */,
+				B2DE66392E04F3C3001FD04D /* ContentView.swift */,
+				B2DE66452E04FCF0001FD04D /* CustomSegmentedControl.swift */,
+				B2DE663F2E04F3DB001FD04D /* SideMenuView.swift */,
+				B2DE66412E04F3FD001FD04D /* WeatherView.swift */,
+				B2DE66472E0500CE001FD04D /* WeatherData.swift */,
+				B2DE663A2E04F3C3001FD04D /* interviewProjectApp.swift */,
+				B2DE664B2E0501B7001FD04D /* Fonts */,
+			);
+			path = interviewProject;
+			sourceTree = "<group>";
+		};
+		B2DE664B2E0501B7001FD04D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B2DE66492E0501B7001FD04D /* Cairo-Regular.ttf */,
+				B2DE664A2E0501B7001FD04D /* Effra-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +101,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B2DE662C2E04F2AC001FD04D /* interviewProject */,
 			);
 			name = interviewProject;
 			packageProductDependencies = (
@@ -109,6 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DE664C2E0501B7001FD04D /* Effra-Regular.ttf in Resources */,
+				B2DE664D2E0501B7001FD04D /* Cairo-Regular.ttf in Resources */,
+				B2DE663E2E04F3C3001FD04D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DE66402E04F3DB001FD04D /* SideMenuView.swift in Sources */,
+				B2DE663C2E04F3C3001FD04D /* ContentView.swift in Sources */,
+				B2DE66482E0500CE001FD04D /* WeatherData.swift in Sources */,
+				B2DE663D2E04F3C3001FD04D /* interviewProjectApp.swift in Sources */,
+				B2DE66422E04F3FD001FD04D /* WeatherView.swift in Sources */,
+				B2DE66442E04F4D2001FD04D /* RootView.swift in Sources */,
+				B2DE66462E04FCF0001FD04D /* CustomSegmentedControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +302,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VNBR7ALME7;
+				DEVELOPMENT_TEAM = NWR6SYGSHG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = interviewProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,14 +332,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VNBR7ALME7;
+				DEVELOPMENT_TEAM = NWR6SYGSHG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = interviewProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
